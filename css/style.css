@@ -1,0 +1,94 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+body{
+    background: rgb(15,32,39);
+background: linear-gradient(90deg, rgba(15,32,39,1) 0%, rgba(32,58,67,1) 50%, rgba(44,83,100,1) 100%);
+    
+    
+    /*
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+
+    */
+    
+}
+
+.bg{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    max-width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+    .bg{
+        max-width: 100%;
+    }
+}
+
+form{
+    margin: 1em    
+}
+
+.a{
+    align-self: center;
+}
+
+input{
+    color: #000;
+    outline:none;
+}
+
+li{
+    display: flex;
+    list-style: none;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+li p {
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+
+input{    
+    border-radius: 5px;
+    height: 2.7em;
+    border: none;
+}
+
+.add-btn{
+    background-color: #ffffff;
+    font-size: 1.4rem;
+    outline: none;
+    color: #E01F2F;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 9px;
+}
+
+.add-btn:hover {
+    cursor: pointer;
+    background-color: rgba(32, 58, 67, 0.685);
+}
+
+.delete-btn{
+    background-color: #E01F2F;    
+    margin-left: auto;
+    font-size: 1.4rem;
+    outline: none;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 9px;
+}
